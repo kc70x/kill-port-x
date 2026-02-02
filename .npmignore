@@ -1,0 +1,11 @@
+# Node defaults (kept for clarity)
+node_modules/
+
+# Lock files (managed by repo, not needed in package)
+pnpm-lock.yaml
+
+# Tests and examples
+test.js
+example.js
+
+# Keep README, LICENSE, package.json, index.js, cli.js, and other package files

@@ -1,12 +1,12 @@
 {
   "name": "kill-port-x",
-  "version": "2.1.1",
+  "version": "2.2.0-beta.1",
   "description": "Kill process running on given port",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kc70x/kill-port-x.git"
+    "url": "git+https://github.com/kc70x/kill-port-x.git"
   },
   "homepage": "https://github.com/kc70x/kill-port-x",
   "bugs": "https://github.com/kc70x/kill-port-x/issues",
