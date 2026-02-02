@@ -15,5 +15,5 @@ server.listen(port, () => {
     kill(port)
       .then(console.log)
       .catch(console.log)
-  }, 1000)
+  }, 10000)
 })
