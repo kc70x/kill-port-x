@@ -59,7 +59,7 @@ pnpm add kill-port-x
 
 ```js
 
-const kill = require('kill-port')
+const kill = require('kill-port-x')
 const http = require('http')
 const port = 8080
 
