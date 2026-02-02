@@ -21,8 +21,7 @@
     "test:watch": "npm test -- --watch",
     "coverage": "npm test -- --coverage",
     "lint": "standard --fix",
-    "precommit": "npm test",
-    "check": "npm-check -u"
+    "precommit": "npm test"
   },
   "keywords": [
     "port",
@@ -39,7 +38,6 @@
   "devDependencies": {
     "husky": "4.2.5",
     "jest": "26.1.0",
-    "npm-check": "^5.9.2",
     "standard": "14.3.4"
   },
   "standard": {
