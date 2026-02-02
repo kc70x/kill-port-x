@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="./logo.png" alt="Logo" width="500px">
-</div>
 <h1 align="center">kill-port-x</h1>
 <div align="center">
   <strong>Direct copy of kill-port with package updates</strong>
