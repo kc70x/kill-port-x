@@ -1,4 +1,4 @@
-/* eslint-env jest */
+/* global test, expect, describe */
 const kill = require('./');
 
 describe('kill-port', () => {

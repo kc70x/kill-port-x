@@ -4,7 +4,11 @@ module.exports = [
     languageOptions: {
       ecmaVersion: 2021,
       sourceType: 'script',
-      globals: {}
+      globals: {
+        test: 'readonly',
+        expect: 'readonly',
+        describe: 'readonly'
+      }
     },
 
     // Files / patterns ESLint should ignore
