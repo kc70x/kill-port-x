@@ -2,7 +2,7 @@
 <div align="center">
   <strong>Direct copy of kill-port with package updates</strong>
   <br>
-  <strong>Kill process running on given port</strong>
+  <strong>Kill the process running on given port</strong>
 </div>
 <br>
 <div align="center">
@@ -18,41 +18,38 @@
   <a href="https://travis-ci.org/tiaanduplessis/kill-port">
     <img src="https://img.shields.io/travis/tiaanduplessis/kill-port.svg?style=flat-square" alt="Travis Build" />
   </a> -->
+  <a href="https://badge.fury.io/gh/tiaanduplessis%2Fkill-port">
+    <img src="https://badge.fury.io/gh/tiaanduplessis%2Fkill-port.svg?style=flat-square" alt="GitHub version" />
+  </a>
+  <a href="https://dependencyci.com/github/tiaanduplessis/kill-port">
+    <img src="https://dependencyci.com/github/tiaanduplessis/kill-port/badge?style=flat-square" alt="Dependency CI" />
+  </a>
   <a href="https://github.com/tiaanduplessis/kill-port/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/kill-port.svg?style=flat-square" alt="License" />
   </a>
-  <!-- <a href="http://makeapullrequest.com">
+  <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a> -->
+  </a>
 </div>
 <br>
 
-
-## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [CLI](#cli)
-- [Contributing](#contributing)
-- [License](#license)
+<h2>Table of Contents</h2>
+<details>
+  <summary>Table of Contents</summary>
+  <li><a href="#install">Install</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#api">API</a></li>
+  <li><a href="#cli">CLI</a></li>
+  <li><a href="#contribute">Contribute</a></li>
+  <li><a href="#license">License</a></li>
+</details>
 
 ## Install
 
-
-With `npm`:
 ```sh
-npm install --save kill-port-x
-```
-
-With `yarn`:
-```sh
-yarn add kill-port-x
-```
-
-With `pnpm`:
-```sh
-pnpm add kill-port-x
+$ npm install --save kill-port-x
+# OR
+$ yarn add kill-port-x
 ```
 
 ## Usage
@@ -89,10 +86,6 @@ The module exports a single function that takes a port number as argument. It re
 
 ## CLI
 
-You can use `kill-port-x` as a global package.
-
-Install the package globally:
-
 ```sh
 $ npm install --global kill-port-x
 # OR
@@ -117,22 +110,7 @@ $ kill-port --port 8080,5000,3000
 $ kill-port 9000 3000 5000
 ```
 
-You can also use [npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner) to `kill-port` without installing:
-
-```sh
-# Kill a single port
-$ npx kill-port --port 8080
-$ npx kill-port 8080
-# Use UDP
-$ npx kill-port 9000 --method udp
-# Kill multiple ports
-$ npx kill-port --port 8080,5000,3000
-$ npx kill-port 9000 3000 5000
-```
-## Testing package
-node example.js then http://localhost:8080
-npm test test.js
 
 ## License
 
-[MIT © Tiaan du Plessis](./LICENSE)
+Licensed under the MIT License.

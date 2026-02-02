@@ -11,11 +11,9 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(port, () => {
-  console.log('started listening on port', port)
   setTimeout(() => {
-    console.log('killing port', port)
     kill(port)
       .then(console.log)
       .catch(console.log)
-  }, 10000)
+  }, 1000)
 })

@@ -6,7 +6,7 @@ module.exports = function (port, method = 'tcp') {
   port = Number.parseInt(port)
 
   if (!port) {
-    return Promise.reject(new Error('Invalid port number provided'))
+    return Promise.reject(new Error('Invalid argument provided for port'))
   }
 
   if (process.platform === 'win32') {
@@ -31,16 +31,7 @@ module.exports = function (port, method = 'tcp') {
       })
   }
 
-  return sh('lsof -i -P')
-    .then(res => {
-      const { stdout } = res
-      if (!stdout) return res
-      const lines = stdout.split('\n')
-      const existProccess = lines.filter((line) => line.match(new RegExp(`:*${port}`))).length > 0
-      if (!existProccess) return Promise.reject(new Error('No process running on port'))
-
-      return sh(
-        `lsof -i ${method === 'udp' ? 'udp' : 'tcp'}:${port} | grep ${method === 'udp' ? 'UDP' : 'LISTEN'} | awk '{print $2}' | xargs kill -9`
-      )
-    })
+  return sh(
+    `lsof -i ${method === 'udp' ? 'udp' : 'tcp'}:${port} | grep ${method === 'udp' ? 'UDP' : 'LISTEN'} | awk '{print $2}' | xargs kill -9`
+  )
 }
