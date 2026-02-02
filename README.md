@@ -1,6 +1,7 @@
 <h1 align="center">kill-port-x</h1>
 <div align="center">
   <strong>Direct copy of kill-port with package updates</strong>
+  <br>
   <strong>Kill process running on given port</strong>
 </div>
 <br>
@@ -128,6 +129,9 @@ $ npx kill-port 9000 --method udp
 $ npx kill-port --port 8080,5000,3000
 $ npx kill-port 9000 3000 5000
 ```
+## Testing package
+node example.js then http://localhost:8080
+npm test test.js
 
 ## License
 
