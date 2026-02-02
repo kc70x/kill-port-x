@@ -33,7 +33,7 @@
     "shell-exec": "1.0.2"
   },
   "devDependencies": {
-    "jest": "28.1.0",
+    "jest": "30.2.0",
     "standard": "17.0.0"
   }
 }
