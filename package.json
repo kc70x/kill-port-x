@@ -1,15 +1,15 @@
 {
-  "name": "kill-port",
-  "version": "2.0.1",
+  "name": "kill-port-x",
+  "version": "2.0.1-beta.1",
   "description": "Kill process running on given port",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiaanduplessis/kill-port.git"
+    "url": "https://github.com/kc70x/kill-port-x.git"
   },
-  "homepage": "https://github.com/tiaanduplessis/kill-port",
-  "bugs": "https://github.com/tiaanduplessis/kill-port/issues",
+  "homepage": "https://github.com/kc70x/kill-port-x",
+  "bugs": "https://github.com/kc70x/kill-port-x/issues",
   "author": "Tiaan du Plessis",
   "bin": {
     "kill-port": "cli.js"

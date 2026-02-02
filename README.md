@@ -1,13 +1,14 @@
 <div align="center">
   <img src="./logo.png" alt="Logo" width="500px">
 </div>
-<h1 align="center">kill-port</h1>
+<h1 align="center">kill-port-x</h1>
 <div align="center">
+  <strong>Direct copy of kill-port with package updates</strong>
   <strong>Kill process running on given port</strong>
 </div>
 <br>
 <div align="center">
-  <a href="https://npmjs.org/package/kill-port">
+  <!-- <a href="https://npmjs.org/package/kill-port">
     <img src="https://img.shields.io/npm/v/kill-port.svg?style=flat-square" alt="Package version" />
   </a>
   <a href="https://npmjs.org/package/kill-port">
@@ -18,13 +19,13 @@
   </a>
   <a href="https://travis-ci.org/tiaanduplessis/kill-port">
     <img src="https://img.shields.io/travis/tiaanduplessis/kill-port.svg?style=flat-square" alt="Travis Build" />
-  </a>
+  </a> -->
   <a href="https://github.com/tiaanduplessis/kill-port/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/kill-port.svg?style=flat-square" alt="License" />
   </a>
-  <a href="http://makeapullrequest.com">
+  <!-- <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a>
+  </a> -->
 </div>
 <br>
 
@@ -43,17 +44,17 @@
 
 With `npm`:
 ```sh
-npm install --save kill-port
+npm install --save kill-port-x
 ```
 
 With `yarn`:
 ```sh
-yarn add kill-port
+yarn add kill-port-x
 ```
 
 With `pnpm`:
 ```sh
-pnpm add kill-port
+pnpm add kill-port-x
 ```
 
 ## Usage
@@ -90,14 +91,14 @@ The module exports a single function that takes a port number as argument. It re
 
 ## CLI
 
-You can use `kill-port` as a global package.
+You can use `kill-port-x` as a global package.
 
 Install the package globally:
 
 ```sh
-$ npm install --global kill-port
+$ npm install --global kill-port-x
 # OR
-$ yarn global add kill-port
+$ yarn global add kill-port-x
 ```
 
 Then:
@@ -130,10 +131,6 @@ $ npx kill-port 9000 --method udp
 $ npx kill-port --port 8080,5000,3000
 $ npx kill-port 9000 3000 5000
 ```
-
-## Contributing
-
-Got an idea for a new feature? Found a bug? Contributions are welcome! Please [open up an issue](https://github.com/tiaanduplessis/feature-flip/issues) or [make a pull request](https://makeapullrequest.com/).
 
 ## License
 
