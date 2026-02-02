@@ -18,7 +18,7 @@
     "start": "npm run dev",
     "pretest": "npm run lint",
     "test": "jest --env=node",
-    "lint": "standard --fix",
+    "lint": "eslint --fix .",
     "precommit": "npm test"
   },
   "keywords": [
@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "jest": "30.2.0",
-    "standard": "17.1.2"
+    "eslint": "9.39.2"
   }
 }
