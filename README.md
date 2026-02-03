@@ -130,8 +130,11 @@ $ npx kill-port --port 8080,5000,3000
 $ npx kill-port 9000 3000 5000
 ```
 ## Testing package
+
+```sh
 node example.js then http://localhost:8080
 npm test test.js
+```
 
 ## License
 
