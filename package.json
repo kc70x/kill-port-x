@@ -15,11 +15,11 @@
     "kill-port": "cli.js"
   },
   "scripts": {
-    "start": "npm run dev",
-    "pretest": "npm run lint",
+    "start": "pnpm run dev",
+    "pretest": "pnpm run lint",
     "test": "jest --env=node",
     "lint": "eslint --fix .",
-    "precommit": "npm test"
+    "precommit": "pnpm test"
   },
   "keywords": [
     "port",
